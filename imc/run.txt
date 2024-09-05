@@ -1,0 +1,10 @@
+npx create-expo-app@latest
+
+npx create-expo-app my-project-name --template blank
+
+npx expo install expo@^51.0.14
+npx expo install --fix
+npx expo-doctor
+
+cd my-project-name 
+npx expo start --tunnel
